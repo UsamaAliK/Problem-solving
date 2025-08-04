@@ -16,17 +16,17 @@ Input
 Output
 YES
 */
-
 #include "~/bits/stdc++.h"
+
 int main(){
     string s;
     int count0 = 0, count1 = 0;
     cin>>s;
     for(char c : s){
-        if(c==0){
+        if(c=='0'){
             count0++;
             count1 = 0;
-        } else if(c==1){
+        } else if(c=='1'){
             count1++;
             count0 = 0; 
 
@@ -37,10 +37,9 @@ int main(){
         cout<<"YES";
         return 0;
     }
-    else{
-        cout<<"NO";
-     return 0; 
-    }
+    
 
     }
+    cout<<"NO";
+    return 0;
 }
