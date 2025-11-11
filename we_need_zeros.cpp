@@ -10,7 +10,7 @@ int main() {
         int a, xor_sum = 0;
         for (int i = 0; i < n; i++) {
             cin >> a;
-            xor_sum ^= a; // XOR of all elements
+            xor_sum ^= a; 
         }
 
         if (n % 2 == 0) {
